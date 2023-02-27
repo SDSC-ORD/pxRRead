@@ -1,4 +1,4 @@
-Package: fsopxRRead
+Package: pxRRead
 Title: Read and Parse fso px file
 Version: 0.0.0.9000
 Authors@R: 

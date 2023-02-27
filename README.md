@@ -1,24 +1,24 @@
 
-# fsopxRRead
+# pxRRead
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fsopxRRead is parse px cube files.
+The goal of pxRRead is parse px cube files.
 
 ## Installation
 
-You can install the development version of fsopxRRead from [GitHub](https://github.com/) with:
+You can install the development version of pxRRead from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("SDSC-ORD/fsopxRRead")
+devtools::install_github("SDSC-ORD/pxRRead")
 ```
 
 ## Usage
 
 ``` r
-library(fsopxRRead)
+library(pxRRead)
 scan_px_file('px-x-0102020203_110.px')
 ```
 
