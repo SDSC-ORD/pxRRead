@@ -1,0 +1,462 @@
+CHARSET="ANSI";
+AXIS-VERSION="2010";
+CODEPAGE="iso-8859-15";
+LANGUAGE="de";
+LANGUAGES="de","fr","it","en";
+CREATION-DATE="20140502 09:00";
+DECIMALS=1;
+SHOWDECIMALS=0;
+MATRIX="px-x-0102020203_110";
+SUBJECT-CODE="01";
+SUBJECT-AREA="01 - Bevölkerung";
+SUBJECT-AREA[fr]="01 - Population";
+SUBJECT-AREA[it]="01 - Popolazione";
+SUBJECT-AREA[en]="01 - Population";
+DESCRIPTION="Scheidungen und Scheidungshäufigkeit seit 1876";
+DESCRIPTION[fr]="Divorces et divortialité depuis 1876";
+DESCRIPTION[it]="Divorzi e divorzialità dal 1876";
+DESCRIPTION[en]="Divorces and divortiality since 1876";
+TITLE="Scheidungen und Scheidungshäufigkeit seit 1876";
+TITLE[fr]="Divorces et divortialité depuis 1876";
+TITLE[it]="Divorzi e divorzialità dal 1876";
+TITLE[en]="Divorces and divortiality since 1876";
+DESCRIPTIONDEFAULT=YES;
+CONTENTS="Scheidungen und Scheidungshäufigkeit seit 1876";
+CONTENTS[fr]="Divorces et divortialité depuis 1876";
+CONTENTS[it]="Divorzi e divorzialità dal 1876";
+CONTENTS[en]="Divorces and divortiality since 1876";
+UNITS="Scheidung";
+UNITS[fr]="Divorce";
+UNITS[it]="Divorzio";
+UNITS[en]="Divorce";
+STUB="Jahr";
+STUB[fr]="Année";
+STUB[it]="Anno";
+STUB[en]="Year";
+HEADING="Demografisches Merkmal und Indikator";
+HEADING[fr]="Caractéristique démographique et indicateur";
+HEADING[it]="Caratteristica demografia ed indicatore";
+HEADING[en]="Demographic characteristic and indicator";
+VALUES("Jahr")="1876","1877","1878","1879","1880","1881","1882","1883","1884","1885","1886","1887",
+"1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898","1899","1900","1901",
+"1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914","1915",
+"1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928","1929",
+"1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942","1943",
+"1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956","1957",
+"1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971",
+"1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985",
+"1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999",
+"2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013",
+"2014","2015","2016","2017","2018","2019","2020","2021";
+VALUES[fr]("Année")="1876","1877","1878","1879","1880","1881","1882","1883","1884","1885","1886",
+"1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898","1899","1900",
+"1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914",
+"1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928",
+"1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942",
+"1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956",
+"1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970",
+"1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984",
+"1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998",
+"1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012",
+"2013","2014","2015","2016","2017","2018","2019","2020","2021";
+VALUES[it]("Anno")="1876","1877","1878","1879","1880","1881","1882","1883","1884","1885","1886",
+"1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898","1899","1900",
+"1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914",
+"1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928",
+"1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942",
+"1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956",
+"1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970",
+"1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984",
+"1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998",
+"1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012",
+"2013","2014","2015","2016","2017","2018","2019","2020","2021";
+VALUES[en]("Year")="1876","1877","1878","1879","1880","1881","1882","1883","1884","1885","1886",
+"1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898","1899","1900",
+"1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913","1914",
+"1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927","1928",
+"1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941","1942",
+"1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955","1956",
+"1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970",
+"1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984",
+"1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998",
+"1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012",
+"2013","2014","2015","2016","2017","2018","2019","2020","2021";
+VALUES("Demografisches Merkmal und Indikator")="Scheidungen - Total","Schweizer Mann (vor Heirat)",
+"Ausländischer Mann (vor Heirat)","Schweizer und Schweizerin (vor Heirat)",
+"Schweizer und Ausländerin (vor Heirat)",
+"Schweizer Mann, Frau mit unbekannter Staatsangehörigkeit (vor Heirat)",
+"Ausländer und Schweizerin (vor Heirat)","Ausländer und Ausländerin (vor Heirat)",
+"Ausländischer Mann, Frau mit unbekannter Staatsangehörigkeit (vor Heirat)",
+"Scheidungen ohne unmündige Kinder","Scheidungen mit unmündigen Kindern",
+"Scheidungen ohne Information über Kinder","Ehedauer in erreichten Jahren: weniger als ein Jahr",
+"Ehedauer in erreichten Jahren: 1 Jahr","Ehedauer in erreichten Jahren: 2 Jahre",
+"Ehedauer in erreichten Jahren: 3-5 Jahre","Ehedauer in erreichten Jahren: 6-10 Jahre",
+"Ehedauer in erreichten Jahren: 11-20 Jahre","Ehedauer in erreichten Jahren: 21-30 Jahre",
+"Ehedauer in erreichten Jahren: 31 und mehr Jahre","Ehedauer: unbekannt",
+"Durchschnittliche Ehedauer bei der Scheidung","Scheidungen je 1000 Einwohner",
+"Zusammengefasste Scheidungsziffer","Art. 137 (fr. 46a) Ehebruch",
+"Art. 138 (fr. 46b) Nachstellung nach dem Leben, Misshandlung und Ehrenkränkung",
+"Art. 139 (fr. 46c) Verbrechen und unehrenhafter Lebenswandel","Art. 140 (fr. 46d) Verlassung",
+"Art. 141 (fr. 46e) Geisteskrankheit","Art. 142 (fr. 45+47) Zerrüttung des ehelichen Verhältnisses",
+"Scheidungsgrund: mehrere Gründe","Scheidungsgrund: unbekannt","Art. 111 Umfassende Einigung",
+"Art. 112 Teileinigung","Art. 114 Nach Getrenntleben","Art. 115 Unzumutbarkeit",
+"Scheidungsgrund: andere";
+VALUES[fr]("Caractéristique démographique et indicateur")="Divorces - Total",
+"Homme suisse (avant mariage)","Homme étranger (avant mariage)",
+"Suisse et Suissesse (avant mariage)","Suisse et étrangère (avant mariage)",
+"Homme suisse, femme de nationalité inconnue (avant mariage)",
+"Etranger et Suissesse (avant mariage)","Etranger et étrangère (avant mariage)",
+"Homme étranger, femme de nationalité inconnue (avant mariage)","Divorces sans enfant mineur",
+"Divorces avec enfants mineurs","Divorces sans information sur les enfants",
+"Durée du mariage en années atteintes: moins d'un an","Durée du mariage en années atteintes: 1 an",
+"Durée du mariage en années atteintes: 2 ans","Durée du mariage en années atteintes: 3-5 ans",
+"Durée du mariage en années atteintes: 6-10 ans","Durée du mariage en années atteintes: 11-20 ans",
+"Durée du mariage en années atteintes: 21-30 ans",
+"Durée du mariage en années atteintes: 31 ans ou plus","Durée du mariage: inconnue",
+"Durée moyenne du mariage au moment du divorce","Divorces pour 1000 habitants",
+"Indicateur conjoncturel de divortialité","Art. 137 (anc. 46a) Adultère",
+"Art. 138 (anc. 46b) Attentat à la vie, sévices et injures graves",
+"Art. 139 (anc. 46c) Délit et atteinte à l'honneur","Art. 140 (anc. 46d) Abandon",
+"Art. 141 (anc. 46e) Maladie mentale","Art. 142 (anc. 45+47) Lien conjugal profondément atteint",
+"Motif du divorce: plusieurs causes","Motif du divorce: inconnu","Art. 111 Accord complet",
+"Art. 112 Accord partiel","Art. 114 Après la suspension de la vie commune",
+"Art. 115 Rupture du lien conjugal","Motif du divorce: autre";
+VALUES[it]("Caratteristica demografia ed indicatore")="Divorzi - Totale",
+"Uomo svizzero (prima del matrimonio)","Uomo straniero (prima del matrimonio)",
+"Svizzero e Svizzera (prima del matrimonio)","Svizzero e straniera (prima del matrimonio)",
+"Uomo svizzero, donna di nazionalità sconosciuta (prima del matrimonio)",
+"Straniero e Svizzera (prima del matrimonio)","Straniero e straniera (prima del matrimonio)",
+"Uomo straniero, donna di nazionalità sconosciuta (prima del matrimonio)",
+"Divorzi senza figli minorenni","Divorzi con figli minorenni",
+"Divorzi senza informazioni sui figli","Durata del matrimono in anni raggiunti: meno d'un anno",
+"Durata del matrimono in anni raggiunti: 1 anno","Durata del matrimono in anni raggiunti: 2 anni",
+"Durata del matrimono in anni raggiunti: 3-5 anni",
+"Durata del matrimono in anni raggiunti: 6-10 anni",
+"Durata del matrimono in anni raggiunti: 11-20 anni",
+"Durata del matrimono in anni raggiunti: 21-30 anni",
+"Durata del matrimono in anni raggiunti: 31 anni o più","Durata del matrimonio: sconosciuta",
+"Durata media del matrimonio al momento del divorzio","Divorzi ogni 1000 abitanti",
+"Indicatore sintetico di divorzialità","Art. 137 (ant. 46a) Adulterio",
+"Art. 138 (ant. 46b) Insidie alla vita, maltrattamenti ed ingiurie",
+"Art. 139 (ant. 46c) Delitto, condotta disonorante","Art. 140 (ant. 46d) Abbandono",
+"Art. 141 (ant. 46e) Infermità mentale",
+"Art. 142 (ant. 45+47) Turbazione delle relazioni coniugali","Motivo di divorzio: parecchie cause",
+"Motivo di divorzio: sconosciuto","Art. 111 Accordo completo","Art. 112 Accordo parziale",
+"Art. 114 Dopo la sospensione della vita comune","Art. 115 Rottura del vincolo coniugale",
+"Motivo di divorzio: altro";
+VALUES[en]("Demographic characteristic and indicator")="Divorces - Total",
+"Swiss male (before marriage)","Foreign male (before marriage)",
+"Swiss male and female (before marriage)","Swiss male and foreign female (before marriage)",
+"Swiss male, female of unknown nationality (before marriage)",
+"Foreign male and Swiss female (before marriage)","Foreign male and female (before marriage)",
+"Foreign male, female of unknown nationality (before marriage)","Divorces without minor children",
+"Divorces with minor children","Divorces without information about children",
+"Duration of marriage in years (reached during the calendar year): less than one year",
+"Duration of marriage in years (reached during the calendar year): 1 year",
+"Duration of marriage in years (reached during the calendar year): 2 years",
+"Duration of marriage in years (reached during the calendar year): 3-5 years",
+"Duration of marriage in years (reached during the calendar year): 6-10 years",
+"Duration of marriage in years (reached during the calendar year): 11-20 years",
+"Duration of marriage in years (reached during the calendar year): 21-30 years",
+"Duration of marriage in years (reached during the calendar year): 31 years or more",
+"Duration of marriage: unknown","Average duration of marriage at time of divorce",
+"Divorces per 1000 population","Total divorce rate","Art. 137 (prev. 46a) Adultery",
+"Art. 138 (prev. 46b) Attempt on life of spouse, ill-usage, affronts",
+"Art. 139 (prev. 46c) Crime and infamous conduct","Art. 140 (prev. 46d) Desertion",
+"Art. 141 (prev. 46e) Insanity","Art. 142 (prev. 45+47) Domestic disturbances",
+"Ground for divorce: several causes","Ground for divorce: unknown",
+"Art. 111 Comprehensive agreement","Art. 112 Partial agreement","Art. 114 After living apart",
+"Art. 115 Irretrievable breakdown","Ground for divorce: other";
+TIMEVAL("Jahr")=TLIST(A1),"1876","1877","1878","1879","1880","1881","1882","1883","1884","1885",
+"1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898","1899",
+"1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913",
+"1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927",
+"1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941",
+"1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955",
+"1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969",
+"1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983",
+"1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997",
+"1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011",
+"2012","2013","2014","2015","2016","2017","2018","2019","2020","2021";
+TIMEVAL[fr]("Année")=TLIST(A1),"1876","1877","1878","1879","1880","1881","1882","1883","1884",
+"1885","1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898",
+"1899","1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912",
+"1913","1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926",
+"1927","1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940",
+"1941","1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954",
+"1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968",
+"1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982",
+"1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996",
+"1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010",
+"2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021";
+TIMEVAL[it]("Anno")=TLIST(A1),"1876","1877","1878","1879","1880","1881","1882","1883","1884","1885",
+"1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898","1899",
+"1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913",
+"1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927",
+"1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941",
+"1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955",
+"1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969",
+"1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983",
+"1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997",
+"1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011",
+"2012","2013","2014","2015","2016","2017","2018","2019","2020","2021";
+TIMEVAL[en]("Year")=TLIST(A1),"1876","1877","1878","1879","1880","1881","1882","1883","1884","1885",
+"1886","1887","1888","1889","1890","1891","1892","1893","1894","1895","1896","1897","1898","1899",
+"1900","1901","1902","1903","1904","1905","1906","1907","1908","1909","1910","1911","1912","1913",
+"1914","1915","1916","1917","1918","1919","1920","1921","1922","1923","1924","1925","1926","1927",
+"1928","1929","1930","1931","1932","1933","1934","1935","1936","1937","1938","1939","1940","1941",
+"1942","1943","1944","1945","1946","1947","1948","1949","1950","1951","1952","1953","1954","1955",
+"1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969",
+"1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983",
+"1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997",
+"1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011",
+"2012","2013","2014","2015","2016","2017","2018","2019","2020","2021";
+PRECISION("Demografisches Merkmal und Indikator","Durchschnittliche Ehedauer bei der Scheidung")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Durée moyenne du mariage au moment du divorce")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Durata media del matrimonio al momento del divorzio")=1;
+PRECISION[en]("Demographic characteristic and indicator","Average duration of marriage at time of divorce")=1;
+PRECISION("Demografisches Merkmal und Indikator","Scheidungen je 1000 Einwohner")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Divorces pour 1000 habitants")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Divorzi ogni 1000 abitanti")=1;
+PRECISION[en]("Demographic characteristic and indicator","Divorces per 1000 population")=1;
+PRECISION("Demografisches Merkmal und Indikator","Zusammengefasste Scheidungsziffer")=1;
+PRECISION[fr]("Caractéristique démographique et indicateur","Indicateur conjoncturel de divortialité")=1;
+PRECISION[it]("Caratteristica demografia ed indicatore","Indicatore sintetico di divorzialità")=1;
+PRECISION[en]("Demographic characteristic and indicator","Total divorce rate")=1;
+LAST-UPDATED="20220926 08:30";
+CONTACT="Sektion Demografie und Migration, +41 58 463 67 11, E-Mail: info.dem@bfs.admin.ch";
+CONTACT[fr]="Section Démographie et migration, +41 58 463 67 11, e-mail: info.dem@bfs.admin.ch";
+CONTACT[it]="Sezione Demografia e migrazione, +41 58 463 67 11, e-mail: info.dem@bfs.admin.ch";
+CONTACT[en]="Section Demography and migration, +41 58 463 67 11, email: info.dem@bfs.admin.ch";
+REFPERIOD="2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1973,"
+"1972,1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1922,"
+"1921,1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876";
+REFPERIOD[fr]="2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1"
+"973,1972,1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1"
+"922,1921,1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876";
+REFPERIOD[it]="2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1"
+"973,1972,1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1"
+"922,1921,1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876";
+REFPERIOD[en]="2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998,1997,1996,1995,1994,1993,1992,1991,1990,1989,1988,1987,1986,1985,1984,1983,1982,1981,1980,1979,1978,1977,1976,1975,1974,1"
+"973,1972,1971,1970,1969,1968,1967,1966,1965,1964,1963,1962,1961,1960,1959,1958,1957,1956,1955,1954,1953,1952,1951,1950,1949,1948,1947,1946,1945,1944,1943,1942,1941,1940,1939,1938,1937,1936,1935,1934,1933,1932,1931,1930,1929,1928,1927,1926,1925,1924,1923,1"
+"922,1921,1920,1919,1918,1917,1916,1915,1914,1913,1912,1911,1910,1909,1908,1907,1906,1905,1904,1903,1902,1901,1900,1899,1898,1897,1896,1895,1894,1893,1892,1891,1890,1889,1888,1887,1886,1885,1884,1883,1882,1881,1880,1879,1878,1877,1876";
+DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
+DATABASE[it]="UST - STAT-TAB / Ufficio federale di statistica, 2010 Neuchâtel / Svizzera / © Ufficio federale di statistica";
+DATABASE[en]="FSO - STAT-TAB / Federal Statistical Office, 2010 Neuchâtel / Switzerland / © Federal Statistical Office";
+SOURCE="BFS - BEVNAT, ESPOP, STATPOP - © BFS";
+SOURCE[fr]="OFS - BEVNAT, ESPOP, STATPOP - © OFS";
+SOURCE[it]="UST - BEVNAT, ESPOP, STATPOP - © UST";
+SOURCE[en]="FSO - BEVNAT, ESPOP, STATPOP - © FSO";
+SURVEY="Statistik der natürlichen Bevölkerungsbewegung (BEVNAT), Statistik des jährlichen Bevölkerun"
+"gsstandes (1981-2010) (ESPOP), Statistik der Bevölkerung und der Haushalte (STATPOP)";
+SURVEY[fr]="Statistique du mouvement naturel de la population (BEVNAT), Statistique de l'état annuel"
+" de la population (1981-2010) (ESPOP), Statistique de la population et des ménages (STATPOP)";
+SURVEY[it]="Statistica del movimento naturale della popolazione (BEVNAT), Statistica dello stato ann"
+"uale della popolazione (1981-2010) (ESPOP), Statistica della popolazione e delle economie domestich"
+"e (STATPOP)";
+SURVEY[en]="Vital statistics (BEVNAT), Annual Population Statistics (1981-2010) (ESPOP), Population "
+"and Households Statistics (STATPOP)";
+LINK="https://www.bfs.admin.ch/asset/de/px-x-0102020203_110";
+LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-0102020203_110";
+LINK[it]="https://www.bfs.admin.ch/asset/it/px-x-0102020203_110";
+LINK[en]="https://www.bfs.admin.ch/asset/en/px-x-0102020203_110";
+NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datensatz (2021)#Stand der Datenbank: September 2022# Erhebungsperiode: Kalenderjahr# Raumbezug: Schweiz# Datenquelle: Statistik der natürlichen Bevölkerungsbewegung (BEVNAT), 1981-2010 Statistik des "
+"jährlichen Bevölkerungsstandes (ESPOP), ab 2011 Statistik der Bevölkerung und der Haushalte (STATPOP)##<B>Verwendete Zeichen</B>:#' ... ' : Zahl unbekannt, weil (noch) nicht erhoben oder (noch) nicht berechnet#' * ' : entfällt, weil trivial oder Begriffe "
+"nicht anwendbar##Zwischen 1921 und 1932 ist nur die Nationalität des Mannes bekannt. Seit 1933 steht die Nationalität beider Ehepartner vor der Heirat zur Verfügung.##Die erwähnten Artikel bezeichnen die Urteilsgründe der Scheidungen. Sie beziehen sich "
+"von 1886 bis 1911 auf das 'Bundesgesez betreffend Feststellung und Beurkundung des Zivilstandes und die Ehe (vom 24. Christmonat 1874)' (sic) bzw. auf das Schweizerische Zivilgesetzbuch (ZGB) vom 10. Dezember 1907, das auf den 1. Januar 1912 in Kraft "
+"gesetzt wurde. Ab 2000 gelten neue Urteilsgründe. Der Wechsel der Datenquelle, d.h. Übermittlung aus dem informatisierten Zivilstandsregister (Infostar), hat zur Folge, dass Daten zu Urteilsgründen ab 2011 nicht mehr verfügbar sind.#1934-1982: Bei "
+"mehreren Urteilsgründen wird nur der schwerwiegendste Urteilsgrund berücksichtigt.##Die historischen Daten stammen aus der Publikation «Historische Statistik der Schweiz» (Chronos, 1996) und den jährlichen Publikationen «Bevölkerungsbewegung in der "
+"Schweiz».#Die übrigen Daten stammen aus der Statistik der natürlichen Bevölkerungsbewegung <A HREF=https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/erhebungen/bevnat.html TARGET=_blank>BEVNAT</A>##Informationen über die verwendeten Begriffe "
+"befinden sich hier: <A HREF=https://www.bfs.admin.ch/bfs/de/home/grundlagen/definitionen.html?dyn_prodima=900010&dyn_pageIndex=0 TARGET=_blank>Definitionen</A>##Historische Vertiefung:#<A HREF=http://www.hls-dhs-dss.ch/index.php TARGET=_"
+"blank>Historisches Lexikon der Schweiz</A>#";
+NOTE[fr]="<B>Métainformation:</B>#Dernière modification: nouveau jeu de données (2021)#Etat de la base de données: septembre 2022#Période de référence: année civile#Référence spatiale: Suisse#Sources de données: Statistique du mouvement naturel de la "
+"population (BEVNAT), 1981-2010 Statistique de l'état annuel de la population (ESPOP), depuis 2011 Statistique de la population et des ménages (STATPOP)##<B>Signes utilisés</B>:#' ... ' : chiffre inconnu car pas (encore) relevé ou pas (encore) calculé#' * "
+"' : non indiqué car évident ou non pertinent##De 1921 à 1932, seule la nationalité de l'homme est connue. A partir de 1933, la nationalité des deux époux avant le mariage est disponible.##Les articles mentionnés décrivent les motifs légaux du divorce. "
+"Ils se réfèrent de 1886 à 1911 à la 'Loi fédérale concernant l'état civil, la tenue des registres qui s'y rapportent et le mariage (du 24 décembre 1874)', resp. au Code civil suisse (CC) du 10 décembre 1907, entré en vigueur le 1er janvier 1912. A partir "
+"de 2000, de nouveaux motifs légaux sont applicables. Le changement de source - passage au registre informatisé de l'état civil (Infostar) - entraîne une perte des données sur les motifs de jugement, à partir de 2011.#1934-1982: lorsqu'un divorce a été "
+"prononcé pour plusieurs motifs, seul le motif prépondérant est pris en compte.##Les données historiques proviennent de la publication « Statistique historique de la Suisse » (Chronos, 1996) et des publications annuelles « Mouvement de la Population de la "
+"Suisse ».#Les autres données proviennent de la Statistique du mouvement naturel de la population <A HREF=https://www.bfs.admin.ch/bfs/fr/home/statistiques/population/enquetes/bevnat.html TARGET=_blank>BEVNAT</A>##Des informations sur les termes utilisés "
+"peuvent être trouvées ici: <A HREF=https://www.bfs.admin.ch/bfs/fr/home/bases-statistiques/definitions.html?dyn_prodima=900010&dyn_pageIndex=0 TARGET=_blank>Définitions</A>##Approfondissement historique:#<A HREF=http://www.hls-dhs-dss.ch/index.php TARGET="
+"_blank>Dictionnaire historique de la Suisse</A>#";
+NOTE[it]="<B>Metainformazioni:</B>#Ultima modifica: nuovo set di dati (2021)#Stato della banca dati: settembre 2022#Periodo di riferimento: anno civile#Georeferenza: Svizzera# Fonti dei dati: statistica del movimento naturale della popolazione (BEVNAT), "
+"1981-2010: statistica dello stato annuale della popolazione (ESPOP), dal 2011: statistica della popolazione e delle economie domestiche (STATPOP)##<B>Simboli utilizzati</B>:#' ... ' : cifra sconosciuta perché non (ancora) rilevata o non (ancora) "
+"calcolata#' * ' : non indicato perché evidente o non pertinente##Dal 1921 al 1932, solo la nazionalità dell'uomo è conosciuta. Dal 1933, è disponibile anche la nazionalità dei due sposi prima del matrimonio.##Gli articoli menzionati descrivono i motivi "
+"legali di divorzio. Dal 1886 al 1911 si riferiscono alla 'Legge federale sullo stato civile, la tenuta dei registri che vi fanno riferimento e il matrimonio (del 24 dicembre 1874)', rispettivamente al Codice civile svizzero (CC) del 10 dicembre 1907, "
+"entrato in vigore il 1 gennaio 1912. A partire dal 2000, sono applicabili nuovi motivi legali. Il cambiamento della fonte, ossia il passaggio al registro informatizzato dello stato civile (Infostar), comporta, a partire dal 2011, una perdita di dati "
+"riguardanti i motivi di giudizio.#1934-1982: nel caso in cui un divorzio sia stato pronunciato per molteplici ragioni, solo la preponderante è presa in considerazione.##I dati storici provengono dalla pubblicazione « Historische Statistik der Schweiz/"
+"Statistique historique de la Suisse » (Chronos, 1996, in tedesco o francese) e dalle pubblicazioni annuali  « Die Bewegung der Bevölkerung in der Schweiz/Mouvement de la Population de la Suisse » (in tedesco o francese).#Gli altri dati provengono dalla "
+"statistica del movimento naturale della popolazione <A HREF=https://www.bfs.admin.ch/bfs/fr/home/statistiques/population/enquetes/bevnat.html TARGET=_blank>BEVNAT</A> (in francese)##Ulteriori informazioni sulle termini utilizzate possono essere trovate "
+"qui: <A HREF=https://www.bfs.admin.ch/bfs/it/home/basi-statistiche/definizioni.html?dyn_prodima=900010 TARGET=_blank>Definizioni</A>##Approfondimento storico:#<A HREF=http://www.hls-dhs-dss.ch/index.php TARGET=_blank>Dizionario storico della Svizzera</"
+"A>#";
+NOTE[en]="<B>Metainformation:</B>#Last modified: new data set (2021)#State of the database: September 2022#Reference period : Calendar year#Spatial reference: Switzerland#Data sources: Vital Statistics (BEVNAT), 1981-2010 Annual Population Statistics "
+"(ESPOP), from 2011 Population and Households Statistics (STATPOP)##<B>Used signs</B>:#' ... ' : figure unknown because not (yet) collected or not (yet) calculated#' * ' : not indicated because obvious or concept not applicable##From 1921 until 1932, only "
+"the nationality of the man is known. Since 1933, the nationality of both spouses before marriage is available.##The articles mentioned describe the legal grounds of the divorce. They refer to the Federal law on civil status, its registration and marriage "
+"(of 24 December 1874) from 1886 to 1911, resp. to the Swiss Civil Code of 10 December 1907 which came into force on 1 January 1912. Since 2000, new legal grounds apply. As a result of a change in data source no such data are available after 2010.#1934-"
+"1982: when a divorce is based on more than one legal ground, only the main one is taken into account.##Historical data taken from the publication « Historical Statistics of Switzerland » (Chronos, 1996) and the annual publications on Vital statistics (in "
+"French: « Mouvement de la Population de la Suisse »).#The rest of the data comes from the Vital statistics <A HREF=https://www.bfs.admin.ch/bfs/de/home/statistiken/bevoelkerung/erhebungen/bevnat.html TARGET=_blank>BEVNAT</A> (in German)##Information "
+"about the term used can be found here: <A HREF=https://www.bfs.admin.ch/bfs/en/home/basics/definitions.html?dyn_prodima=900010 TARGET=_blank>Definitions</A>##Historical background:#<A HREF=http://www.hls-dhs-dss.ch/index.php TARGET=_blank>The Historical "
+"Dictionary of Switzerland</A>#";
+DATASYMBOL1="-";
+DATASYMBOL1[fr]="-";
+DATASYMBOL1[it]="-";
+DATASYMBOL1[en]="-";
+DATASYMBOL4="*";
+DATASYMBOL4[fr]="*";
+DATASYMBOL4[it]="*";
+DATASYMBOL4[en]="*";
+DATASYMBOL5="( )";
+DATASYMBOL5[fr]="( )";
+DATASYMBOL5[it]="( )";
+DATASYMBOL5[en]="( )";
+DATASYMBOL6="X";
+DATASYMBOL6[fr]="X";
+DATASYMBOL6[it]="X";
+DATASYMBOL6[en]="X";
+DATA=
+1102 "..." "..." "..." "..." "..." "..." "..." "..." 370 607 125 32 57 54 167 247 283 104 32 126 "..." 0.4 5.8 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+1036 "..." "..." "..." "..." "..." "..." "..." "..." 392 604 40 29 59 65 184 243 303 96 18 39 "..." 0.4 5.3 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+1036 "..." "..." "..." "..." "..." "..." "..." "..." 350 657 29 43 55 78 199 205 314 97 18 27 "..." 0.4 5.2 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+938 "..." "..." "..." "..." "..." "..." "..." "..." 346 563 29 42 61 85 197 227 220 82 16 8 "..." 0.3 4.7 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+856 "..." "..." "..." "..." "..." "..." "..." "..." 308 532 16 27 54 57 166 230 235 65 19 3 "..." 0.3 4.2 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+945 "..." "..." "..." "..." "..." "..." "..." "..." 377 556 12 38 51 68 217 235 227 94 11 4 "..." 0.3 4.7 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+964 "..." "..." "..." "..." "..." "..." "..." "..." 383 573 8 27 50 59 213 276 227 85 23 4 "..." 0.3 4.8 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+898 "..." "..." "..." "..." "..." "..." "..." "..." 346 541 11 33 58 67 189 262 201 74 12 2 "..." 0.3 4.4 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+907 "..." "..." "..." "..." "..." "..." "..." "..." 323 578 6 31 39 65 203 239 228 74 22 6 "..." 0.3 4.5 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+920 "..." "..." "..." "..." "..." "..." "..." "..." 374 536 10 32 49 64 196 248 241 69 20 1 "..." 0.3 4.6 "..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." 
+899 "..." "..." "..." "..." "..." "..." "..." "..." 319 573 7 25 51 51 142 279 273 67 9 2 "..." 0.3 4.5 62 94 31 97 8 429 0 0 "...." "...." "...." "...." "...." 
+925 "..." "..." "..." "..." "..." "..." "..." "..." 352 550 23 29 46 60 190 250 255 73 17 5 "..." 0.3 4.6 77 87 24 76 14 446 0 0 "...." "...." "...." "...." "...." 
+841 "..." "..." "..." "..." "..." "..." "..." "..." 311 504 26 21 47 43 183 240 225 61 21 0 "..." 0.3 4.2 76 97 24 73 14 420 0 0 "...." "...." "...." "...." "...." 
+865 "..." "..." "..." "..." "..." "..." "..." "..." 297 542 26 19 43 54 176 229 247 82 12 3 "..." 0.3 4.3 65 100 17 70 15 417 0 0 "...." "...." "...." "...." "...." 
+880 "..." "..." "..." "..." "..." "..." "..." "..." 329 525 26 22 47 72 179 219 249 66 25 1 "..." 0.3 4.4 68 119 19 79 16 455 0 0 "...." "...." "...." "...." "...." 
+877 "..." "..." "..." "..." "..." "..." "..." "..." 358 497 22 26 49 52 176 233 243 73 15 10 "..." 0.3 4.3 63 117 13 72 14 474 0 0 "...." "...." "...." "...." "...." 
+881 "..." "..." "..." "..." "..." "..." "..." "..." 294 575 12 22 41 55 187 236 244 75 17 4 "..." 0.3 4.3 82 109 23 80 17 435 0 0 "...." "...." "...." "...." "...." 
+903 "..." "..." "..." "..." "..." "..." "..." "..." 305 576 22 27 39 59 178 237 255 84 16 8 "..." 0.3 4.4 75 102 27 69 15 465 0 0 "...." "...." "...." "...." "...." 
+932 "..." "..." "..." "..." "..." "..." "..." "..." 347 571 14 32 45 86 177 249 262 70 9 2 "..." 0.3 4.5 80 125 22 54 16 484 0 0 "...." "...." "...." "...." "...." 
+897 "..." "..." "..." "..." "..." "..." "..." "..." 330 541 26 28 48 58 182 254 237 74 16 0 "..." 0.3 4.3 64 147 18 62 14 484 0 0 "...." "...." "...." "...." "...." 
+1057 "..." "..." "..." "..." "..." "..." "..." "..." 374 651 32 25 69 64 216 311 267 83 22 0 "..." 0.3 5.1 88 151 34 67 12 585 0 0 "...." "...." "...." "...." "...." 
+1011 "..." "..." "..." "..." "..." "..." "..." "..." 378 599 34 24 53 68 213 242 310 93 8 0 "..." 0.3 4.8 89 162 39 60 14 572 0 0 "...." "...." "...." "...." "...." 
+1018 "..." "..." "..." "..." "..." "..." "..." "..." 360 615 43 27 50 67 225 265 260 106 18 0 "..." 0.3 4.8 73 152 27 49 18 618 0 0 "...." "...." "...." "...." "...." 
+1091 "..." "..." "..." "..." "..." "..." "..." "..." 380 663 48 27 66 79 223 276 280 121 19 0 "..." 0.3 5.1 87 162 23 60 18 662 0 0 "...." "...." "...." "...." "...." 
+1025 "..." "..." "..." "..." "..." "..." "..." "..." 365 638 22 34 53 61 215 262 286 93 11 10 "..." 0.3 4.7 84 183 29 44 16 586 0 0 "...." "...." "...." "...." "...." 
+1027 "..." "..." "..." "..." "..." "..." "..." "..." 385 610 32 30 61 86 191 256 298 89 16 0 "..." 0.3 4.6 75 138 35 49 16 624 0 0 "...." "...." "...." "...." "...." 
+1105 "..." "..." "..." "..." "..." "..." "..." "..." 365 700 40 25 63 72 239 302 286 102 16 0 "..." 0.3 4.9 78 156 23 46 19 666 0 0 "...." "...." "...." "...." "...." 
+1182 "..." "..." "..." "..." "..." "..." "..." "..." 409 734 39 32 67 80 264 288 334 99 18 0 "..." 0.3 5.2 95 185 36 45 18 713 0 0 "...." "...." "...." "...." "...." 
+1243 "..." "..." "..." "..." "..." "..." "..." "..." 441 757 45 34 69 87 295 311 312 109 26 0 "..." 0.4 5.4 89 228 27 30 17 747 0 0 "...." "...." "...." "...." "...." 
+1206 "..." "..." "..." "..." "..." "..." "..." "..." 428 771 7 34 57 61 250 337 346 104 17 0 "..." 0.3 5.2 91 194 22 32 18 770 0 0 "...." "...." "...." "...." "...." 
+1343 "..." "..." "..." "..." "..." "..." "..." "..." 501 836 6 28 66 95 275 394 356 108 21 0 "..." 0.4 5.7 107 240 24 20 22 802 0 0 "...." "...." "...." "...." "...." 
+1494 "..." "..." "..." "..." "..." "..." "..." "..." 574 917 3 49 80 92 281 409 426 129 28 0 "..." 0.4 6.3 104 284 20 31 33 928 0 0 "...." "...." "...." "...." "...." 
+1551 "..." "..." "..." "..." "..." "..." "..." "..." 575 971 5 40 90 115 331 410 404 143 18 0 "..." 0.4 6.4 96 314 28 41 29 919 0 0 "...." "...." "...." "...." "...." 
+1534 "..." "..." "..." "..." "..." "..." "..." "..." 517 1015 2 44 96 87 293 401 430 156 27 0 "..." 0.4 6.3 85 310 31 38 26 950 0 0 "...." "...." "...." "...." "...." 
+1527 "..." "..." "..." "..." "..." "..." "..." "..." 535 985 7 42 88 109 273 402 468 121 24 0 "..." 0.4 6.2 97 301 26 29 36 948 0 0 "...." "...." "...." "...." "...." 
+1623 "..." "..." "..." "..." "..." "..." "..." "..." 578 1040 5 42 90 100 323 442 448 145 33 0 "..." 0.4 6.5 114 284 28 36 27 1022 0 0 "...." "...." "...." "...." "...." 
+1514 "..." "..." "..." "..." "..." "..." "..." "..." 549 965 0 27 96 97 336 366 438 126 28 0 "..." 0.4 6 131 183 68 32 30 927 0 0 "...." "...." "...." "...." "...." 
+1616 "..." "..." "..." "..." "..." "..." "..." "..." 597 1019 0 35 82 114 340 394 465 158 28 0 "..." 0.4 6.3 132 192 56 37 24 1016 0 0 "...." "...." "...." "...." "...." 
+1455 "..." "..." "..." "..." "..." "..." "..." "..." 521 931 3 34 88 100 290 351 426 144 22 0 "..." 0.4 5.7 96 175 57 28 22 937 0 0 "...." "...." "...." "...." "...." 
+1472 "..." "..." "..." "..." "..." "..." "..." "..." 549 918 5 34 73 79 292 393 456 118 27 0 "..." 0.4 5.7 126 134 64 27 32 911 0 0 "...." "...." "...." "...." "...." 
+1562 "..." "..." "..." "..." "..." "..." "..." "..." 595 967 0 29 75 108 312 415 452 144 27 0 "..." 0.4 6.1 116 131 50 34 38 1030 0 0 "...." "...." "...." "...." "...." 
+1640 "..." "..." "..." "..." "..." "..." "..." "..." 626 1013 1 48 84 83 311 454 453 179 28 0 "..." 0.4 6.5 115 138 48 31 38 1106 0 0 "...." "...." "...." "...." "...." 
+1699 "..." "..." "..." "..." "..." "..." "..." "..." 632 1067 0 50 101 116 286 464 486 156 40 0 "..." 0.4 6.8 122 92 60 23 37 1196 0 0 "...." "...." "...." "...." "...." 
+1977 "..." "..." "..." "..." "..." "..." "..." "..." 736 1241 0 37 114 139 343 544 572 198 30 0 "..." 0.5 7.9 175 149 61 18 32 1382 0 0 "...." "...." "...." "...." "...." 
+2241 "..." "..." "..." "..." "..." "..." "..." "..." 867 1371 3 54 122 160 379 651 608 229 38 0 10.8 0.6 8.9 198 163 68 21 45 1574 0 0 "...." "...." "...." "...." "...." 
+1979 1806 173 "..." "..." "..." "..." "..." "..." 824 1155 0 64 155 123 360 485 582 171 39 0 10.6 0.5 7.7 154 110 49 26 52 1413 0 0 "...." "...." "...." "...." "...." 
+2108 1951 157 "..." "..." "..." "..." "..." "..." 877 1231 0 59 144 163 443 475 593 190 41 0 10.7 0.5 8 185 112 50 18 48 1509 0 0 "...." "...." "...." "...." "...." 
+2005 1861 144 "..." "..." "..." "..." "..." "..." 827 1162 16 51 133 158 400 454 567 198 44 0 11.1 0.5 7.6 145 120 74 14 50 1447 0 0 "...." "...." "...." "...." "...." 
+2119 1979 140 "..." "..." "..." "..." "..." "..." 976 1142 1 22 108 139 532 468 583 221 45 1 11.3 0.5 7.9 283 158 88 19 48 1515 0 1 "...." "...." "...." "...." "...." 
+2223 2083 140 "..." "..." "..." "..." "..." "..." 993 1230 0 11 88 146 579 577 580 195 47 0 10.9 0.6 8.2 274 120 97 23 27 1672 0 0 "...." "...." "...." "...." "...." 
+2213 2070 143 "..." "..." "..." "..." "..." "..." 992 1221 0 15 111 158 523 568 556 229 53 0 11.4 0.6 8.1 282 138 94 18 45 1626 0 0 "...." "...." "...." "...." "...." 
+2500 2324 176 "..." "..." "..." "..." "..." "..." 1138 1362 0 15 105 157 514 782 618 252 57 0 11.3 0.6 9.1 299 152 104 25 49 1862 0 0 "...." "...." "...." "...." "...." 
+2545 2366 179 "..." "..." "..." "..." "..." "..." 1139 1406 0 14 113 170 498 776 653 269 52 0 11.3 0.6 9.2 341 164 98 14 38 1876 0 1 "...." "...." "...." "...." "...." 
+2733 2561 172 "..." "..." "..." "..." "..." "..." 1213 1520 0 78 152 171 569 783 653 267 45 15 10.7 0.7 9.8 328 194 92 19 46 2054 0 0 "...." "...." "...." "...." "...." 
+2723 2516 207 "..." "..." "..." "..." "..." "..." 1296 1427 0 66 173 213 539 783 641 253 47 8 10.5 0.7 9.6 278 132 82 19 46 2159 0 0 "...." "...." "...." "...." "...." 
+2857 2665 192 "..." "..." "..." "..." "..." "..." 1316 1541 0 63 199 176 647 775 720 241 32 4 10.2 0.7 10.1 320 113 113 16 50 2240 0 0 "...." "...." "...." "...." "...." 
+3041 2839 202 "..." "..." "..." "..." "..." "..." 1417 1624 0 68 175 217 651 816 775 279 56 4 10.6 0.7 10.6 375 94 97 18 57 2385 0 4 "...." "...." "...." "...." "...." 
+2992 2778 214 2187 591 0 135 79 0 1460 1532 0 87 187 210 622 765 794 261 65 1 10.6 0.7 10.3 383 108 85 15 40 2351 0 4 "...." "...." "...." "...." "...." 
+3034 2797 237 2231 566 0 165 72 0 1486 1548 0 73 195 230 636 778 816 257 49 0 10.6 0.7 10.4 385 83 95 9 52 2410 "..." "..." "...." "...." "...." "...." "...." 
+3015 2819 196 2250 569 0 134 62 0 1492 1523 0 70 184 231 648 771 777 281 53 0 10.6 0.7 10.2 332 80 126 10 47 2420 "..." "..." "...." "...." "...." "...." "...." 
+3219 3035 184 2459 576 0 133 51 0 1607 1612 0 83 202 268 707 867 763 265 64 0 10.4 0.8 10.8 359 86 136 18 46 2574 "..." "..." "...." "...." "...." "...." "...." 
+3379 3177 202 2536 641 0 139 63 0 1713 1666 0 90 183 256 779 952 836 230 53 0 9.9 0.8 11.2 405 121 120 17 48 2668 "..." "..." "...." "...." "...." "...." "...." 
+3390 3164 226 2514 650 0 178 48 0 1771 1619 0 103 184 215 803 876 919 233 57 0 10.4 0.8 11.3 388 83 137 21 64 2697 "..." "..." "...." "...." "...." "...." "...." 
+2996 2822 174 2269 553 0 128 46 0 1543 1453 0 66 181 177 634 839 791 250 58 0 10.7 0.7 10 294 62 102 24 45 2469 "..." "..." "...." "...." "...." "...." "...." 
+3093 2913 180 2403 510 0 132 48 0 1558 1535 0 63 180 212 638 901 810 237 52 0 10.5 0.7 10.2 382 77 103 15 50 2466 "..." "..." "...." "...." "...." "...." "...." 
+3066 2908 158 2385 523 0 114 44 0 1562 1504 0 63 187 195 579 865 860 257 60 0 10.8 0.7 10.1 406 84 94 17 53 2412 "..." "..." "...." "...." "...." "...." "...." 
+3190 3029 161 2532 497 0 117 44 0 1683 1507 0 63 202 232 603 921 850 270 49 0 10.6 0.7 10.4 475 57 99 11 51 2497 "..." "..." "...." "...." "...." "...." "...." 
+3211 3081 130 2578 503 0 93 37 0 1646 1565 0 73 187 235 645 858 896 267 50 0 10.7 0.7 10.3 514 71 118 16 55 2437 "..." "..." "...." "...." "...." "...." "...." 
+3138 2998 140 2555 443 0 108 32 0 1593 1545 0 66 179 213 689 824 867 256 44 0 10.5 0.7 10 582 79 108 19 51 2299 "..." "..." "...." "...." "...." "...." "...." 
+3726 3587 139 3042 545 0 108 31 0 1926 1800 0 67 197 309 843 924 1039 287 60 0 10.6 0.8 11.7 692 79 169 12 50 2724 "..." "..." "...." "...." "...." "...." "...." 
+4298 4115 183 3492 623 0 140 43 0 2183 2115 0 74 214 291 947 1071 1233 391 77 0 11.1 1 13.4 800 80 144 15 71 3188 "..." "..." "...." "...." "...." "...." "...." 
+4280 4119 161 3491 628 0 125 36 0 2169 2111 0 59 207 280 947 1069 1219 420 79 0 11.4 0.9 13.2 859 74 162 15 53 3117 "..." "..." "...." "...." "...." "...." "...." 
+4292 4102 190 3522 580 0 153 37 0 2078 2214 0 74 197 271 898 1169 1205 391 87 0 11.4 0.9 13 809 90 156 10 69 3158 "..." "..." "...." "...." "...." "...." "...." 
+4111 3941 170 3399 542 0 129 41 0 2010 2101 0 63 199 277 825 1136 1146 393 72 0 11.4 0.9 12.3 814 108 162 20 61 2946 "..." "..." "...." "...." "...." "...." "...." 
+4241 4047 194 3490 557 0 134 60 0 2014 2227 0 67 221 265 923 1186 1137 364 78 0 11.2 0.9 12.5 887 77 137 13 64 3063 "..." "..." "...." "...." "...." "...." "...." 
+4295 4131 164 3487 644 0 131 33 0 2061 2234 0 60 217 297 917 1159 1181 398 66 0 11.3 0.9 12.5 887 79 136 16 66 3111 "..." "..." "...." "...." "...." "...." "...." 
+4188 4041 147 3468 573 0 113 34 0 1956 2232 0 74 215 250 890 1095 1188 385 91 0 11.5 0.9 12.1 907 83 132 26 59 2981 "..." "..." "...." "...." "...." "...." "...." 
+4406 4211 195 3518 693 0 155 40 0 2026 2380 0 63 232 272 939 1189 1214 387 110 0 11.4 0.9 12.6 937 75 135 25 54 3180 "..." "..." "...." "...." "...." "...." "...." 
+4437 4186 251 3527 659 0 200 51 0 2046 2391 0 52 195 283 905 1219 1265 444 74 0 11.5 0.9 12.6 1006 60 113 20 48 3190 "..." "..." "...." "...." "...." "...." "...." 
+4416 4211 205 3615 596 0 163 42 0 2026 2390 0 64 212 291 934 1173 1200 448 94 0 11.6 0.9 12.5 1000 70 100 18 57 3171 "..." "..." "...." "...." "...." "...." "...." 
+4293 4095 198 3506 589 0 155 43 0 1898 2395 0 50 177 256 891 1266 1143 417 93 0 11.5 0.8 12 1035 50 104 20 36 3048 "..." "..." "...." "...." "...." "...." "...." 
+4545 4315 230 3640 675 0 175 55 0 1988 2557 0 46 229 312 952 1206 1294 422 84 0 11.4 0.9 12.6 1075 47 109 20 41 3253 "..." "..." "...." "...." "...." "...." "...." 
+4400 4159 241 3447 712 0 174 67 0 1917 2483 0 42 192 261 944 1220 1265 406 70 0 11.3 0.8 12.1 1086 46 85 15 37 3131 "..." "..." "...." "...." "...." "...." "...." 
+4683 4375 308 3655 720 0 224 84 0 2053 2630 0 58 226 338 981 1260 1282 457 81 0 11.3 0.9 12.7 1182 35 89 15 43 3319 "..." "..." "...." "...." "...." "...." "...." 
+4656 4338 318 3581 757 0 212 106 0 1973 2683 0 57 202 301 991 1188 1376 452 89 0 11.5 0.9 12.5 1187 54 87 9 50 3269 "..." "..." "...." "...." "...." "...." "...." 
+4737 4409 328 3671 738 0 206 122 0 2716 2021 0 45 215 267 979 1279 1382 466 104 0 11.8 0.9 12.7 1205 44 85 15 36 3352 "..." "..." "...." "...." "...." "...." "...." 
+4724 4364 360 3621 743 0 216 144 0 1994 2730 0 58 224 284 961 1261 1387 454 95 0 11.6 0.8 12.5 1171 44 96 6 27 3380 "..." "..." "...." "...." "...." "...." "...." 
+4711 4343 368 3567 776 0 220 148 0 1938 2773 0 53 186 323 963 1253 1382 471 80 0 11.6 0.8 12.3 1247 41 64 13 31 3315 "..." "..." "...." "...." "...." "...." "...." 
+4865 4417 448 3653 764 0 284 164 0 2000 2865 0 58 225 271 984 1300 1364 557 106 0 11.5 0.8 12.6 1210 42 77 14 33 3489 "..." "..." "...." "...." "...." "...." "...." 
+4977 4469 508 3704 765 0 309 199 0 2069 2908 0 50 216 362 1045 1365 1311 517 111 0 11.6 0.9 12.7 1274 35 71 11 30 3556 "..." "..." "...." "...." "...." "...." "...." 
+4944 4426 518 3621 805 0 310 208 0 1993 2951 0 78 230 318 1051 1252 1373 524 118 0 11.8 0.8 12.5 1297 48 59 14 39 3487 "..." "..." "...." "...." "...." "...." "...." 
+5198 4582 616 3775 807 0 392 224 0 2173 3025 0 67 256 413 1148 1242 1377 571 124 0 11.7 0.9 12.9 1348 38 69 2 16 3725 "..." "..." "...." "...." "...." "...." "...." 
+5599 4937 662 4055 882 0 416 246 0 2240 3359 0 79 270 373 1241 1417 1495 606 118 0 11.6 0.9 13.8 1375 49 73 13 33 4056 "..." "..." "...." "...." "...." "...." "...." 
+5982 5249 733 4314 935 0 444 289 0 2410 3572 0 32 177 369 1282 1597 1727 661 137 0 11.6 1 14.6 1468 42 81 15 32 4344 "..." "..." "...." "...." "...." "...." "...." 
+6406 5555 851 4574 981 0 531 320 0 2540 3866 0 32 189 401 1424 1712 1773 725 150 0 11.6 1 15.4 1536 56 57 13 13 4731 "..." "..." "...." "...." "...." "...." "...." 
+7036 5952 1084 "..." "..." "..." "..." "..." "..." 2762 4274 0 18 193 430 1550 1978 1905 772 190 0 11.7 1.1 16.8 1733 18 39 14 8 5224 "..." "..." "...." "...." "...." "...." "...." 
+7651 6498 1153 5365 1133 0 657 496 0 3063 4588 0 15 205 447 1776 2136 2079 781 212 0 11.5 1.2 18 1806 29 24 16 0 5776 "..." "..." "...." "...." "...." "...." "...." 
+8030 6836 1194 5646 1190 0 698 496 0 3344 4686 0 14 218 486 1798 2343 2167 810 194 0 11.3 1.3 18.8 1804 20 19 9 8 6170 "..." "..." "...." "...." "...." "...." "...." 
+8188 6885 1303 5696 1189 0 768 535 0 3276 4912 0 21 191 460 1869 2369 2264 836 178 0 11.2 1.3 19.1 1590 28 21 14 4 6531 "..." "..." "...." "...." "...." "...." "...." 
+8917 7544 1373 6213 1331 0 846 527 0 3577 5340 0 12 214 475 1891 2684 2563 880 198 0 11.2 1.4 20.9 1725 30 24 10 2 7126 "..." "..." "...." "...." "...." "...." "...." 
+9583 8030 1553 6608 1422 0 986 567 0 3868 5715 0 15 209 487 1981 2909 2839 960 183 0 11.1 1.5 22.6 1667 20 20 11 3 7862 "..." "..." "...." "...." "...." "...." "...." 
+10474 8812 1662 7277 1535 0 1052 610 0 4260 6214 0 27 210 541 2075 3219 3132 1049 221 0 11.1 1.7 25 1570 16 12 4 12 8860 "..." "..." "...." "...." "...." "...." "...." 
+10497 8802 1695 7206 1596 0 1086 609 0 4179 6318 0 46 241 470 1940 3104 3339 1097 260 0 11.2 1.7 25.5 1536 19 15 9 3 8915 "..." "..." "...." "...." "...." "...." "...." 
+10394 8744 1650 7230 1514 0 1075 575 0 4080 6314 0 44 238 522 1880 2853 3414 1189 254 0 11.3 1.7 25.7 1395 15 14 8 8 8954 "..." "..." "...." "...." "...." "...." "...." 
+10910 9041 1869 7393 1648 0 1203 666 0 4291 6619 0 32 247 499 1850 2940 3794 1270 278 0 11.5 1.7 27.3 1362 10 12 18 4 9504 "..." "..." "...." "...." "...." "...." "...." 
+11131 9162 1969 7581 1581 0 1251 718 0 4388 6743 0 41 305 560 1825 2900 3922 1342 236 0 11.3 1.8 28.2 1270 24 14 10 3 9810 "..." "..." "...." "...." "...." "...." "...." 
+11589 9398 2191 7707 1691 0 1382 809 0 4692 6897 0 44 309 603 1953 2872 4087 1429 292 0 11.4 1.8 29.6 1140 13 4 11 2 10419 "..." "..." "...." "...." "...." "...." "...." 
+11710 9450 2260 7620 1830 0 1389 871 0 4580 7130 0 45 324 596 2031 2723 4188 1504 299 0 11.5 1.8 30.1 1046 12 10 4 6 10609 15 8 "...." "...." "...." "...." "...." 
+11219 8902 2317 7254 1648 0 1403 914 0 4554 6665 0 23 361 672 1988 2449 3904 1521 301 0 11.5 1.7 28.9 629 2 5 2 8 10197 344 32 "...." "...." "...." "...." "...." 
+11416 8997 2419 7284 1713 0 1474 945 0 4737 6679 0 32 306 678 2118 2470 3848 1642 322 0 11.6 1.8 29.5 605 1 13 3 7 10410 340 37 "...." "...." "...." "...." "...." 
+11395 9028 2367 7249 1779 0 1372 995 0 4981 6414 0 29 336 674 2145 2474 3672 1750 315 0 11.7 1.8 29.4 492 8 1 4 10 10552 308 20 "...." "...." "...." "...." "...." 
+11553 9120 2433 7401 1719 0 1456 977 0 5141 6412 0 34 315 601 2164 2607 3652 1781 399 0 12 1.8 29.8 489 9 1 1 8 10739 289 17 "...." "...." "...." "...." "...." 
+12731 9847 2884 7874 1973 0 1725 1159 0 5876 6855 0 37 360 672 2443 2934 3814 2004 467 0 12.1 1.9 32.7 419 3 4 1 8 11964 316 16 "...." "...." "...." "...." "...." 
+12721 9631 3090 7720 1911 0 1796 1294 0 5961 6760 0 38 371 833 2472 2935 3615 2018 439 0 11.9 1.9 32.4 342 7 4 1 3 12094 247 23 "...." "...." "...." "...." "...." 
+13184 9829 3355 7906 1923 0 1941 1414 0 6334 6850 0 36 422 860 2579 3183 3589 2070 445 0 11.9 2 33.2 264 3 0 1 8 12650 217 41 "...." "...." "...." "...." "...." 
+13628 10142 3486 8069 2073 0 2008 1478 0 6770 6858 0 39 467 896 2845 3218 3574 2117 472 0 11.8 2 34 226 5 0 1 7 13154 189 46 "...." "...." "...." "...." "...." 
+14530 10683 3847 8573 2110 0 2173 1674 0 7053 7477 0 32 549 920 3126 3471 3823 2071 538 0 11.8 2.1 35.8 239 2 0 3 22 14051 169 44 "...." "...." "...." "...." "...." 
+15054 11022 4032 8871 2151 0 2255 1777 0 7570 7484 0 29 353 1115 3311 3647 3739 2252 608 0 12 2.2 36.6 180 5 0 1 5 14669 155 39 "...." "...." "...." "...." "...." 
+15634 11291 4343 9165 2126 0 2480 1863 0 7790 7844 0 37 355 824 3641 3957 3848 2331 641 0 12.1 2.2 37.8 149 1 1 1 6 15323 118 35 "...." "...." "...." "...." "...." 
+15703 11373 4330 9336 2037 0 2446 1884 0 7775 7928 0 31 367 731 3341 4268 4008 2273 684 0 12.3 2.2 37.9 127 1 2 2 7 15370 131 63 "...." "...." "...." "...." "...." 
+16172 11551 4621 9536 2015 0 2593 2028 0 8493 7679 0 36 292 706 3260 4456 4314 2397 711 0 12.6 2.3 39 123 2 2 1 13 15857 123 51 "...." "...." "...." "...." "...." 
+17073 12055 5018 9952 2103 0 2887 2131 0 9110 7963 0 37 349 669 3123 5039 4569 2421 866 0 12.8 2.4 41.1 91 4 1 1 5 16793 113 65 "...." "...." "...." "...." "...." 
+17868 12478 5390 10066 2412 0 3115 2275 0 9335 8533 0 69 396 759 2977 5555 4747 2410 955 0 12.7 2.5 43.1 79 3 1 2 53 17508 142 80 "...." "...." "...." "...." "...." 
+20809 14439 6370 11675 2764 0 3564 2806 0 10870 9939 0 83 401 775 3307 6415 5813 2880 1135 0 12.9 2.9 50.5 70 1 0 4 16 20528 122 68 "...." "...." "...." "...." "...." 
+10511 7142 3369 5670 1472 0 1861 1508 0 5698 4813 0 17 223 400 1551 3288 3020 1333 679 0 13.1 1.5 25.6 "...." "...." "...." "...." "...." "...." "...." "...." 6970 294 748 169 2330 
+15778 11074 4704 8946 2128 0 2617 2087 0 8545 7233 0 15 242 555 2135 4875 4804 2182 970 0 13.4 2.2 38.5 "...." "...." "...." "...." "...." "...." "...." "...." 14753 494 310 221 0 
+16363 11476 4887 9212 2264 0 2705 2182 0 8830 7533 0 12 181 541 2234 4998 5214 2166 1017 0 13.4 2.2 40 "...." "...." "...." "...." "...." "...." "...." "...." 15361 478 296 228 0 
+16799 11607 5192 9207 2400 0 2882 2310 0 9121 7678 0 16 196 451 2299 5043 5374 2348 1072 0 13.6 2.3 41.3 "...." "...." "...." "...." "...." "...." "...." "...." 15679 526 397 197 0 
+17949 12440 5509 9855 2585 0 3021 2488 0 9748 8201 0 17 219 488 2280 5268 5885 2661 1131 0 13.8 2.4 44.2 "...." "...." "...." "...." "...." "...." "...." "...." 16581 536 646 186 0 
+21332 14878 6454 11642 3236 0 3524 2930 0 11375 9957 0 19 194 435 2618 6027 7217 3411 1411 0 14.3 2.9 52.6 "...." "...." "...." "...." "...." "...." "...." "...." 19078 795 1316 143 0 
+20981 14430 6551 11202 3228 0 3465 3086 0 11153 9828 0 8 181 451 2376 5759 7247 3513 1446 0 14.6 2.8 51.7 "...." "...." "...." "...." "...." "...." "...." "...." 18383 1055 1435 108 0 
+19882 13474 6408 10360 3114 0 3281 3127 0 10922 8960 0 13 200 443 2382 5427 6632 3432 1353 0 14.5 2.6 49.1 "...." "...." "...." "...." "...." "...." "...." "...." 17212 1025 1489 156 0 
+19613 13412 6201 10380 3032 0 3082 3119 0 10823 8790 0 11 197 420 2292 5395 6496 3452 1350 0 14.6 2.6 48.4 "...." "...." "...." "...." "...." "...." "...." "...." 17106 994 1420 93 0 
+19321 12952 6369 10090 2862 0 3237 3132 0 10808 8513 0 14 182 474 2231 5433 6271 3404 1312 0 14.5 2.5 47.7 "...." "...." "...." "...." "...." "...." "...." "...." 16823 989 1407 102 0 
+22081 14805 7276 11462 3343 0 3590 3686 0 12485 9596 0 38 276 528 2633 6074 6988 4054 1490 0 14.5 2.8 54.4 "...." "...." "...." "...." "...." "...." "...." "...." 19675 1104 1245 57 0 
+17566 11211 6355 8083 3128 0 3249 3106 0 9671 7895 0 41 263 465 2068 4740 5471 3282 1236 0 14.6 2.2 43.2 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+17550 11498 6052 8253 3245 0 3376 2676 0 9670 7880 0 31 256 469 2191 4657 5383 3304 1259 0 14.6 2.2 43.1 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+17119 11021 6098 7988 3033 0 3220 2878 0 9469 7650 0 38 257 440 2134 4534 5169 3323 1224 0 14.7 2.1 41.9 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+16737 10561 6176 7623 2938 0 3028 3148 0 9281 7456 0 35 277 438 2074 4237 5035 3355 1286 0 15 2 40.9 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+16960 10647 6313 7734 2913 0 3079 3234 0 9287 7673 0 36 282 442 2113 4280 5261 3272 1274 0 14.9 2 41.4 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+17028 10764 6264 7806 2958 0 3004 3260 0 9047 7981 0 39 291 439 2021 4217 5443 3318 1260 0 15 2 41.5 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+15906 9629 6277 6902 2727 0 2835 3442 0 8704 7202 0 31 281 441 1844 3925 5003 3194 1187 0 15.1 1.9 38.7 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+16542 9766 6776 6941 2825 0 2906 3870 0 8987 7555 0 29 268 454 1898 4002 5318 3271 1302 0 15.2 1.9 40.2 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+16885 9998 6887 7143 2855 0 2958 3929 0 9022 7863 0 41 249 442 1961 3944 5469 3379 1400 0 15.4 2 41.1 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+16210 9761 6449 6677 3084 0 2716 3733 0 8528 7682 0 24 209 402 1841 3719 5336 3261 1418 0 15.6 1.9 39.5 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." 
+17159 10203 6956 7338 2865 0 2878 4078 0 8751 8408 0 24 177 365 1827 3870 5923 3487 1486 0 15.7 2 41.9 "...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..."; 
