@@ -1,5 +1,5 @@
 Package: pxRRead
-Title: Read and Parse fso px file
+Title: Read and Parse px files
 Version: 0.0.0.9000
 Authors@R: 
     person("Sabine", "Maennel", , "sabine.maennel@gmail.com", role = c("aut", "cre"))
