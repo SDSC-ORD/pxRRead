@@ -10,7 +10,7 @@ scan_px_file(px_file)
 \item{px_file}{px cube file}
 }
 \value{
-list with the data as a tibble and the metadata as a list
+list with the dataframe as a tibble and the metadata as a list
 }
 \description{
 Scan a px cube file and return px data and metadata

@@ -39,13 +39,13 @@ In this first version of the parser the following is done:
 
 The output consist of a list of data and metadata:
 - `output$metadata` includes all base px keys, but not the translations
-- `output$tdf` is a tibble with the length of the `DATA` of the px cube 
+- `output$dataframe` is a tibble with the length of the `DATA` of the px cube 
 - The dimensions in "STUB" and "HEADING" of the px cube are all turned into columns of the tibble
 
 ``` r
 output <- scan_px_file('https://www.pxweb.bfs.admin.ch/DownloadFile.aspx?file=px-x-0602000000_107')
 output$metadata
-output$tdf
+output$dataframe
 ```
 
 ### Restrictions

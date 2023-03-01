@@ -2,7 +2,7 @@
 #'
 #' @param px_file px cube file
 #'
-#' @return list with the data as a tibble and the metadata as a list
+#' @return list with the dataframe as a tibble and the metadata as a list
 #' @export
 #'
 #' @examples scan_px_file("px-x-0102020203_110.px")
@@ -27,7 +27,7 @@ scan_px_file <- function (px_file) {
   df[, 'DATA'] = data
    df <- janitor::clean_names(df)
    output <- list('metadata' = metadata,
-                 'tdf' = tibble::as_tibble(df))
+                  'dataframe' = tibble::as_tibble(df))
   return(output)
 }
 
