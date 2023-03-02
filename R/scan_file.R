@@ -25,9 +25,9 @@ scan_px_file <- function (px_file) {
   metadata <- process_px_metadata(px_rows)
   df <- expand.grid(c(metadata$HEADING, metadata$STUB))
   df[, 'DATA'] = data
-   df <- janitor::clean_names(df)
-   output <- list('metadata' = metadata,
-                  'dataframe' = tibble::as_tibble(df))
+  df <- janitor::clean_names(df)
+  output <- list('metadata' = metadata,
+                 'dataframe' = tibble::as_tibble(df))
   return(output)
 }
 
