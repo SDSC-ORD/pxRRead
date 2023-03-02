@@ -7,8 +7,16 @@
 #'
 #' @examples scan_px_file("px-x-0102020203_110.px")
 scan_px_file <- function (file_or_url) {
-  scanned_lines <- scan(file_or_url, what = "list", sep = ";", quote = NULL,
-                        quiet = TRUE, encoding = "latin1", multi.line = TRUE)
+  tryCatch(
+    {
+      valid_px_file_or_url <- check_file_or_url(file_or_url)
+      scanned_lines <- scan(file_or_url, what = "list", sep = ";", quote = NULL,
+                            quiet = TRUE, encoding = "latin1", multi.line = TRUE)
+    },
+    error = function(error_message) {
+      stop(error_message)
+    }
+  )
   # make sure the last scanned line is an empty line
   scanned_lines <- append(scanned_lines, "")
   px_rows <- list()

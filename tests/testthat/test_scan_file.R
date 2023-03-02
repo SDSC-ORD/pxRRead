@@ -21,3 +21,13 @@ test_that("scan px cube file: 2184.px", {
   expect_equal(dim(output$dataframe), c(9600, 5))
   expect_vector(output$metadata)
 })
+
+test_that("unvalid file format", {
+  url <- "https://www.pxweb.bfs.admin.ch/DownloadFile.aspx?file=a"
+  expect_error(scan_px_file(url), "File is not a px cube: could not find AXIS-VERSION statement")
+})
+
+test_that("unvalid file or url", {
+  url <- "a"
+  expect_error(scan_px_file(url))
+})
