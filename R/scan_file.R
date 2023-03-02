@@ -6,22 +6,29 @@
 #' @export
 #'
 #' @examples scan_px_file("px-x-0102020203_110.px")
-scan_px_file <- function (px_file) {
-  scanned_lines <- scan(px_file, what = "list", sep = ";", quote = NULL,
+scan_px_file <- function (file_or_url) {
+  scanned_lines <- scan(file_or_url, what = "list", sep = ";", quote = NULL,
                         quiet = TRUE, encoding = "latin1", multi.line = TRUE)
+  # make sure the last scanned line is an empty line
+  scanned_lines <- append(scanned_lines, "")
   px_rows <- list()
-  lines <- c()
+  px_Line_group <- c()
   for (line in scanned_lines) {
+    # the empty line separate the px key value blocks after scanning
     if (line != "") {
-      lines <- append(lines, line)
+      px_Line_group <- append(px_Line_group, line)
     } else {
-      if (length(lines) > 0) {
-        px_rows <- append(px_rows, get_keyword_values_pair(lines))
-        lines <- c()
+      if (length(px_Line_group) > 0) {
+        px_key <- get_keyword_from_lines(px_Line_group[1])
+        if (px_key == "DATA") {
+          data <- vectorize_px_data(px_Line_group)
+        } else if (grepl('[A-Z-]', px_key)) {
+          px_rows <- append(px_rows, get_keyword_values_pair(px_Line_group))
+        }
+        px_Line_group <- c()
       }
     }
   }
-  data <- vectorize_px_data(lines)
   metadata <- process_px_metadata(px_rows)
   df <- expand.grid(c(metadata$HEADING, metadata$STUB))
   df[, 'DATA'] = data
@@ -30,4 +37,3 @@ scan_px_file <- function (px_file) {
                  'dataframe' = tibble::as_tibble(df))
   return(output)
 }
-

@@ -4,7 +4,7 @@
 \alias{scan_px_file}
 \title{Scan a px cube file and return px data and metadata}
 \usage{
-scan_px_file(px_file)
+scan_px_file(file_or_url)
 }
 \arguments{
 \item{px_file}{px cube file}

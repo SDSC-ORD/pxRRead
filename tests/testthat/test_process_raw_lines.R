@@ -1,7 +1,7 @@
-test_that("get keyword from raw px line", {
+test_that("get keyword from raw px lines", {
   px_line <- 'LANGUAGE="de"'
   keyword <- "LANGUAGE"
-  expect_equal(get_keyword_from_line(px_line), keyword)
+  expect_equal(get_keyword_from_lines(px_line), keyword)
 })
 
 test_that("get px_row as keyword values pair from group of px lines", {
