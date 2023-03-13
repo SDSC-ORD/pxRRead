@@ -1,15 +1,16 @@
 #' Scan a px cube file and return px data and metadata
 #'
-#' @param px_file px cube file
+#' @param file_or_url url or file path to px cube
+#' @param lang language
 #'
 #' @return list with the dataframe as a tibble and the metadata as a list
 #' @export
 #'
 #' @examples scan_px_file("px-x-0102020203_110.px")
-scan_px_file <- function (file_or_url) {
+scan_px_file <- function (file_or_url, lang=NULL) {
   tryCatch(
     {
-      valid_px_file_or_url <- check_file_or_url(file_or_url)
+      language_metadata <- check_file_or_url(file_or_url)
       scanned_lines <- scan(file_or_url, what = "list", sep = ";", quote = NULL,
                             quiet = TRUE, encoding = "latin1", multi.line = TRUE)
     },
@@ -37,10 +38,17 @@ scan_px_file <- function (file_or_url) {
       }
     }
   }
-  metadata <- process_px_metadata(px_rows)
+  languages <- language_metadata$languages
+  default_language <- language_metadata$default_language
+  metadata <- process_px_metadata(px_rows, languages)
+  translations <- process_translations(px_rows = px_rows,
+                                       metadata = metadata,
+                                       default_language = default_language,
+                                       languages = languages)
+  return(list(metadata=metadata, translations=translations))
+  metadata_localized <- localize_metadata(metadata)
   df <- expand.grid(c(metadata$HEADING, metadata$STUB))
   df[, 'DATA'] = data
-  df <- janitor::clean_names(df)
   output <- list('metadata' = metadata,
                  'dataframe' = tibble::as_tibble(df))
   return(output)

@@ -12,7 +12,9 @@ get_keyword_values_pair <- function (lines) {
   key_value_pair <- strsplit(lines[1], split='\\=') %>% unlist()
   keyword <- head(key_value_pair, 1)
   lines[1] <- tail(key_value_pair, 1)
-  px_row <- vectorize_raw_input(lines) %>% list()
+  px_row <- paste(lines, collapse = "") %>%
+    vectorize_raw_input() %>%
+    list()
   names(px_row) = keyword
   return(px_row)
 }
@@ -47,6 +49,24 @@ get_keyword_from_lines <- function (lines) {
   return(keywords)
 }
 
+#' Get keyword from lines of a px file
+#'
+#' @param lines as raw string scanned from the px file
+#' @param keyword LANGUAGES or LANGUAGE
+#'
+#' @return keyword
+#' @noRd
+#'
+#' @example get_languages_for_keyword('LANGUAGES=\"de\",\"fr\",\"it\",\"en\";', 'LANGUAGES')
+get_languages_for_keyword <- function (lines, keyword) {
+  keyword_id <- paste0(keyword, '=')
+  languages <- lines[startsWith(lines, keyword_id)] %>%
+    stringr::str_replace(keyword_id, '') %>%
+    stringr::str_extract_all("[[:lower:]]{2}") %>%
+    unlist()
+  return(languages)
+}
+
 #' Process the raw px lines that start with the DATA keyword
 #'
 #' @importFrom dplyr %>%
@@ -60,23 +80,11 @@ get_keyword_from_lines <- function (lines) {
 vectorize_px_data <- function (lines) {
   lines[1] <- stringr::str_replace(lines[1], 'DATA=', '')
   lines <- lines[lines != ""]
-  data <- vectorize_data(lines)
+  values <- paste(lines, collapse = "") %>%
+    trimws() %>%
+    strsplit(split=' ') %>%
+    unlist()
+  suppressWarnings(data <- as.numeric(values))
   return(data)
-}
-
-#' Turn raw px data lines into a numeric vector
-#'
-#' @importFrom dplyr %>%
-#'
-#' @param rows scanned rows of a px file
-#'
-#' @return rows as numeric
-#' @noRd
-#'
-#' @examples vectorize_data(c('1102 \"...\" \"...\"', '370 607 125'))
-vectorize_data <- function(lines) {
-  values <- trimws(lines) %>% strsplit(split=' ') %>% unlist()
-  suppressWarnings(values <- as.numeric(values))
-  return(values)
 }
 

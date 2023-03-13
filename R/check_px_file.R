@@ -10,7 +10,7 @@
 check_file_or_url <- function(file_or_url) {
   tryCatch(
     {
-      lines <- readr::read_lines(file_or_url,  n_max = 5)
+      lines <- readr::read_lines(file_or_url,  n_max = 10)
       keywords <- get_keyword_from_lines(lines)
       file_is_px_axis_file <- ('AXIS-VERSION' %in% keywords)
       if (!('AXIS-VERSION' %in% keywords )) {
@@ -19,6 +19,14 @@ check_file_or_url <- function(file_or_url) {
       if (!('CHARSET=\"ANSI\";' %in% lines)) {
         stop("File has not the expected ANSI encoding: file an issue and ask for an extensions to other encodings")
       }
+      if ('LANGUAGE' %in% keywords) {
+        default_language <- get_languages_for_keyword(lines, 'LANGUAGE')
+      }
+      if ('LANGUAGES' %in% keywords) {
+        languages <- get_languages_for_keyword(lines, 'LANGUAGES')
+      }
+      language_metadata <- list("languages"=languages,
+                                "default_language"= default_language)
     },
     error = function(error_message) {
       stop(error_message)
